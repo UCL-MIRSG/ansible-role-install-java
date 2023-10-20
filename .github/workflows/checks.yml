@@ -13,5 +13,4 @@ jobs:
     steps:
       - uses: UCL-MIRSG/.github/actions/linting@v0.23.0
         with:
-          ansible-roles-config: ./playbooks/roles/requirements.yml
           pre-commit-config: ./.pre-commit-config.yaml
